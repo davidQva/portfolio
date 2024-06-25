@@ -55,11 +55,5 @@ coverage/
 # Dist folder for static site build
 dist/
 
-# SvelteKit specific files
-.static/
-
 # If using TypeScript
 *.tsbuildinfo
-
-#Static files
-*./static/images/*
