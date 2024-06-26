@@ -65,15 +65,18 @@
                 My <span class="text-violet-400">favorite tech</span> includes Java
                 Javascript Python Node.js Sveltekit CSS C C++ PostgreSQL ClickHouse
             </p>
-
-            <button
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+            <a
+                href="https://www.linkedin.com/in/david-qvarnstr%C3%B6m-575933236/"
             >
-                <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+                <button
+                    class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+                >
+                    <div
+                        class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    />
+                    <h4 class="relative z-9">Get in touch &rarr;</h4>
+                </button></a
+            >
         </div>
         <div class="relative grid place-items-center">
             <img
@@ -160,21 +163,6 @@
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
-                <!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
                 <div class="flex gap-6 sm:gap-8">
                     <p
                         class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
@@ -190,5 +178,8 @@
                 </div>
             {/each}
         </div>
+        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+            The <span class="text-violet-400">Complete</span> Package
+        </h5>
     </section>
 </main>
