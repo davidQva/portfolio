@@ -31,19 +31,19 @@
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "Innovative Problem Solver",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "With a strong background in Computer Science, I excel at developing and implementing effective solutions. My expertise in tackling complex challenges ensures that projects are both innovative and reliable.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "Meticulous Implementer",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "My goal is to translat ideas into tangible results. My attention to detail and efficiency ensure high-quality outcomes, consistently delivering projects on time and to the highest standards.",
         },
         {
-            name: "an excellent communicator",
+            name: "Collaborative Team Player",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "I foster a collaborative atmosphere where diverse perspectives thrive. My ability to coordinate efforts, facilitate discussions, and promote cohesion makes me a valuable addition to any organization seeking a dynamic team player dedicated to mutual success.",
         },
     ];
 </script>
@@ -65,9 +65,7 @@
                 My <span class="text-violet-400">favorite tech</span> includes Java
                 Javascript Python Node.js Sveltekit CSS C C++ PostgreSQL ClickHouse
             </p>
-            <a
-                href="https://www.linkedin.com/in/david-qvarnstr%C3%B6m-575933236/"
-            >
+            <a href="#contact">
                 <button
                     class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
                 >
@@ -80,8 +78,8 @@
         </div>
         <div class="relative grid place-items-center">
             <img
-                class="relative object-cover z-[2] max-h-[30vh]"
-                src={"/images/profile.png"}
+                class="relative object-cover z-[2] max-h-[90vh]"
+                src={"/images/IMG_3184.png"}
                 alt="Profile image"
             />
         </div>
@@ -125,21 +123,31 @@
             <Step step={steps[2]}>
                 <p>
                     A system to monitor and control greenhouse temperature.
-                    Created with IAR IDE and coded in C, the software logs
-                    temperature every minute, manages light exposure, and
-                    provides real-time alerts. It uses linked lists for data
-                    management and includes a fast mode for testing. The LCD
-                    user interface, navigated via a numeric keypad, allows users
-                    to configure settings and view logged data.
+                    Created with IAR IDE and coded in <strong
+                        class="text-violet-400"
+                        >C
+                    </strong>, the software logs temperature every minute,
+                    manages light exposure, and provides real-time alerts. It
+                    uses linked lists for data management and includes a fast
+                    mode for testing. The LCD user interface, navigated via a
+                    numeric keypad, allows users to configure settings and view
+                    logged data.
                 </p>
             </Step>
             <Step step={steps[3]}>
                 <p>
-                    "Bachelor's thesis project involves a module for streaming
-                    data from an event-driven system to a ClickHouse database.
-                    It's tailored for integration with the SvelteKit framework,
-                    featuring a Node.js backend and a SvelteKit frontend.
-                    <strong> Currently under development. </strong>"
+                    Bachelor's thesis project involves a module for streaming
+                    data from an event-driven system to a <strong
+                        class="text-violet-400">ClickHouse database</strong
+                    >. It's tailored for integration with the
+                    <strong class="text-violet-400">SvelteKit </strong>
+                    framework, featuring a
+                    <strong class="text-violet-400">Node.js </strong>
+                    backend and a SvelteKit frontend with
+                    <strong class="text-violet-400"
+                        >Javascript and CSS
+                    </strong>.
+                    <strong> Currently under development. </strong>
                 </p>
             </Step>
         </div>
@@ -159,7 +167,7 @@
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-            I am . . .
+            I am a. . .
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
@@ -179,7 +187,7 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            The <span class="text-violet-400">Formaly Educated</span> Solutionist
         </h5>
     </section>
 </main>
