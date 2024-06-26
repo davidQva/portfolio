@@ -6,11 +6,11 @@
             name: "Java 2d Puzzle",
             icon: "fa-solid fa-puzzle-piece",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "A Project in AOOP Advanced Object Oriented Programming course. The game is developed in Java and is a tile based puzzle game. We managed to cranck in 5 desginpatterns MVC, Observer, Strategy, Prototype and Memento Pattern Overengineering at its finsets, this gave us a solid 5! and One of the best reports from the course.",
         },
         {
-            name: "Event-Stream Analyzer",
-            icon: "fa-solid fa-chart-pie",
+            name: "OpenCV and Robotarm",
+            icon: "fa-solid fa-video",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
