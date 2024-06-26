@@ -30,6 +30,6 @@
     </div>
 
     <slot />
-    <Footer />
 </div>
+<Footer />
 <svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
