@@ -5,26 +5,18 @@
         {
             name: "Java 2d Puzzle",
             icon: "fa-solid fa-puzzle-piece",
-            description:
-                "A Project in AOOP Advanced Object Oriented Programming course. The game is developed in Java and is a tile based puzzle game. We managed to cranck in 5 desginpatterns MVC, Observer, Strategy, Prototype and Memento Pattern Overengineering at its finsets, this gave us a solid 5! and One of the best reports from the course.",
         },
         {
             name: "OpenCV and Robotarm",
             icon: "fa-solid fa-video",
-            description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
         {
             name: "GreenHouse Project",
             icon: "fa-solid fa-cloud-sun",
-            description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
         {
             name: "Event Stream Monitor",
             icon: "fa-solid fa-pie-chart",
-            description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
     ];
 
@@ -33,12 +25,12 @@
             metric: "10x",
             name: "Innovative Problem Solver",
             description:
-                "With a strong background in Computer Science, I excel at developing and implementing effective solutions. My expertise in tackling complex challenges ensures that projects are both innovative and reliable.",
+                "With a strong background in Computer Science, I excel at developing and implementing effective solutions. My interest in tackling complex challenges ensures that projects are both innovative and reliable.",
         },
         {
             name: "Meticulous Implementer",
             description:
-                "My goal is to translat ideas into tangible results. My attention to detail and efficiency ensure high-quality outcomes, consistently delivering projects on time and to the highest standards.",
+                "My goal is to translat ideas into tangible results. The attention to detail and efficiency ensure high-quality outcomes, consistently delivering to projects with a high standard.",
         },
         {
             name: "Collaborative Team Player",
@@ -57,7 +49,8 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">David</span>
+                Hi! <br /> I'm
+                <span class="poppins text-violet-400">David</span>
                 Qvarnström <br />Computer scientist <br />
                 <span class="poppins text-violet-400">software engineer</span>
             </h2>
@@ -90,7 +83,9 @@
                 A few of my creative endeavors.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my projects?
+                Curious to see what <span class="poppins text-violet-400"
+                    >projects</span
+                > I've worked on?
             </h3>
         </div>
 
@@ -103,23 +98,29 @@
                         based puzzle game. We managed to cranck in 5
                         desginpatterns <strong class="text-violet-400"
                             >MVC, Observer, Strategy, Prototype and Memento
-                            Pattern</strong
-                        > Overengineering at its finsets, this gave us a solid 5!
-                        and "One of the best reports" from the course.
+                            Pattern.</strong
+                        > Overengineering at its finsets, this gave us a solid 5/5,
+                        and "One of the best reports" from the course!
                     </p>
                 </Step>
             </a>
-            <Step step={steps[1]}>
-                <p>
-                    Using a camera and a robot arm connected to a Raspberry Pi
-                    to sort cubes from a conveyor belt. Leveraging <strong
-                        class="text-violet-400"
-                        >Python, OpenCV and Dobot
-                    </strong>, we create an integrated system capable of taking
-                    orders from a website and automatically collecting the cubes
-                    from the belt.
-                </p></Step
+            <a
+                href="https://github.com/davidQva/Projekt-Dobot-OpenCV-Rpi"
+                target="_blank"
             >
+                <Step step={steps[1]}>
+                    <p>
+                        Using a camera and a robot arm connected to a Raspberry
+                        Pi to sort cubes from a conveyor belt. Leveraging <strong
+                            class="text-violet-400"
+                            >Python, OpenCV and Dobot
+                        </strong>, we create an integrated system capable of
+                        taking orders from a website and automatically
+                        collecting the cubes from the belt.
+                    </p></Step
+                >
+            </a>
+
             <Step step={steps[2]}>
                 <p>
                     A system to monitor and control greenhouse temperature.
@@ -134,22 +135,25 @@
                     logged data.
                 </p>
             </Step>
-            <Step step={steps[3]}>
-                <p>
-                    Bachelor's thesis project involves a module for streaming
-                    data from an event-driven system to a <strong
-                        class="text-violet-400">ClickHouse database</strong
-                    >. It's tailored for integration with the
-                    <strong class="text-violet-400">SvelteKit </strong>
-                    framework, featuring a
-                    <strong class="text-violet-400">Node.js </strong>
-                    backend and a SvelteKit frontend with
-                    <strong class="text-violet-400"
-                        >Javascript and CSS
-                    </strong>.
-                    <strong> Currently under development. </strong>
-                </p>
-            </Step>
+            <a href="/development">
+                <Step step={steps[3]}>
+                    <p>
+                        Bachelor's thesis project involves a module for
+                        aggregationd and monitoring streaming data from an
+                        event-driven system utilizing a <strong
+                            class="text-violet-400">ClickHouse database</strong
+                        >. It's tailored for integration with the
+                        <strong class="text-violet-400">SvelteKit </strong>
+                        framework, featuring a
+                        <strong class="text-violet-400">Node.js </strong>
+                        backend and a SvelteKit frontend with
+                        <strong class="text-violet-400"
+                            >Javascript and CSS
+                        </strong>.
+                        <strong> Currently under development. </strong>
+                    </p>
+                </Step>
+            </a>
         </div>
     </section>
     <section
@@ -163,7 +167,9 @@
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A breif overview <span class="poppins text-violet-400"
+                    >about</span
+                > me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -187,7 +193,8 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Formaly Educated</span> Solutionist
+            Your fullstack <span class="text-violet-400">sollution</span> for innoviative
+            web development
         </h5>
     </section>
 </main>
