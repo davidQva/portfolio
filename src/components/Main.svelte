@@ -55,8 +55,8 @@
                 <span class="poppins text-violet-400">software engineer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite tech</span> includes Java
-                Javascript Python Node.js Sveltekit CSS C C++ PostgreSQL ClickHouse
+                My <span class="text-violet-400">favorite tech</span> includes C
+                C++ Java Python Javascript Sveltekit CSS PostgreSQL
             </p>
             <a href="#contact">
                 <button

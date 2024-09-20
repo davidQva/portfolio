@@ -39,7 +39,7 @@
     <p>
         <b class="pr-2">Reference -> LinkedIn:</b>
         <a
-            href="www.linkedin.com/in/magnuslasses"
+            href="https://www.linkedin.com/in/magnuslasses"
             target="_blank"
             class="text-violet-400"
         >
