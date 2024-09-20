@@ -193,8 +193,7 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            Your fullstack <span class="text-violet-400">sollution</span> for innoviative
-            web development
+            Your <span class="text-violet-400">sollution</span> for innoviative development
         </h5>
     </section>
 </main>
