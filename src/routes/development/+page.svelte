@@ -54,6 +54,25 @@
         </a>
     </p>
 
+    <p>
+        <b class="pr-2">Bachelor Thesis -> Diva:</b>
+        <a
+            href="https://urn.kb.se/resolve?urn=urn:nbn:se:hh:diva-54703"
+            target="_blank"
+            class="text-violet-400"
+        >
+            Prototyp för visualisering av flaskhals i affärsprocess
+
+            <sup>
+                <span class="text-xs scale-75 pl-0.5">
+                    <i
+                        class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+                    ></i>
+                </span>
+            </sup>
+        </a>
+    </p>
+
     <a href="/">
         <button
             class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center fixed bottom-20 left-20 duration-200 flex p-10 z-[10]"

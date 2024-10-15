@@ -150,7 +150,6 @@
                         <strong class="text-violet-400"
                             >Javascript and CSS
                         </strong>.
-                        <strong> Currently under development. </strong>
                     </p>
                 </Step>
             </a>
